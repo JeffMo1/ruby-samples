@@ -1,0 +1,8 @@
+IRB.conf[:PROMPT][:TTT] = {                    # name of prompt mode
+  :PROMPT_I => 'Enter a move or command: ',    # normal prompt
+  :PROMPT_S => '"',                            # prompt for continuated strings
+  :PROMPT_C => '*',                            # prompt for continuated statement
+  :RETURN => "%s\n\n"                          # format to return value
+}
+
+IRB.conf[:PROMPT_MODE] = :TTT
